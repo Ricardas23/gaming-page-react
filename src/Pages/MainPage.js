@@ -26,20 +26,20 @@ const MainPage = () => {
                 <h2>Space Marine</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing tristique risus nec feugiat in fermentum. A erat nam at lectus urna duis.</p>
             </div>
-            <img src={'/Assets/image 48.png'}/>
-            <img src={'/Assets/image 47.png'}/>
+            <img src={'./gaming-page-react/Assets/image 48.png'}/>
+            <img src={'./gaming-page-react/Assets/image 47.png'}/>
         </div>
 
         <div className='othergames-container'>
             <div className='moregames'>
-                <img className='gameimg' src={'/Assets/leap.png'}/>
-                <img className='downloading' src={'/Assets/download1.png'}/>
+                <img className='gameimg' src={'./gaming-page-react/Assets/leap.png'}/>
+                <img className='downloading' src={'./gaming-page-react/Assets/download1.png'}/>
 
             </div>
 
             <div className='moregames'>
-                <img className='gameimg' src={'/Assets/spacemarine.png'}/>
-                <img className='downloading' src={'/Assets/download2.png'}/>
+                <img className='gameimg' src={'./gaming-page-react/Assets/spacemarine.png'}/>
+                <img className='downloading' src={'./gaming-page-react/Assets/download2.png'}/>
 
             </div>
 
