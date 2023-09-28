@@ -29,7 +29,7 @@ function App() {
       
       <Routes>
 
-        <Route path='/' element={ <MainPage/> } ></Route>
+        <Route path='/gaming-page-react' element={ <MainPage/> } ></Route>
         <Route path='/Friends' element={ <FriendsPage/> } ></Route>
         <Route path='/Favorite' element={ <FavoritePage/> } ></Route>
 
