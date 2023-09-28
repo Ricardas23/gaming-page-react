@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gaming-page-react/static/css/main.470823b1.css",
+    "main.js": "/gaming-page-react/static/js/main.99753867.js",
+    "static/js/787.11d6b170.chunk.js": "/gaming-page-react/static/js/787.11d6b170.chunk.js",
+    "index.html": "/gaming-page-react/index.html",
+    "main.470823b1.css.map": "/gaming-page-react/static/css/main.470823b1.css.map",
+    "main.99753867.js.map": "/gaming-page-react/static/js/main.99753867.js.map",
+    "787.11d6b170.chunk.js.map": "/gaming-page-react/static/js/787.11d6b170.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.470823b1.css",
+    "static/js/main.99753867.js"
+  ]
+}
