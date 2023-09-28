@@ -1,5 +1,6 @@
 import React from 'react'
 import Toolbar from '../Components/Toolbar'
+
 const MainPage = () => {
   return (
     <div className='Main-Container'>
@@ -8,16 +9,16 @@ const MainPage = () => {
         <div className='game-container'>
             <div className='popularity-btns'>
             <button className='btn-popular'>
-                <img src='/Assets/ant-design_fire-outlined.png'/>
+                <img src={require('../Assets/ant-design_fire-outlined.png')}/>
                 Popular
             </button>
 
             <button className='steam-btn'>
-            <img src='/Assets/ButtonSteam.png'/>
+            <img src={require('../Assets/ButtonSteam.png')}/>
             </button>
 
             <button className='epicgames-btn'>
-            <img src='/Assets/ButtonEpicGames.png'/>
+            <img src={require('../Assets/ButtonEpicGames.png')}/>
             </button>
 
             </div>
@@ -26,26 +27,26 @@ const MainPage = () => {
                 <h2>Space Marine</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing tristique risus nec feugiat in fermentum. A erat nam at lectus urna duis.</p>
             </div>
-            <img src={'/Assets/image 48.png'}/>
-            <img src={'/Assets/image 47.png'}/>
+            <img src={require('../Assets/image 48.png')}/>
+            <img src={require('../Assets/image 47.png')}/>
         </div>
 
         <div className='othergames-container'>
             <div className='moregames'>
-                <img className='gameimg' src={'/Assets/leap.png'}/>
-                <img className='downloading' src={'/Assets/download1.png'}/>
+                <img className='gameimg' src={require('../Assets/leap.png')}/>
+                <img className='downloading' src={require('../Assets/download1.png')}/>
 
             </div>
 
             <div className='moregames'>
-                <img className='gameimg' src={'/Assets/spacemarine.png'}/>
-                <img className='downloading' src={'/Assets/download2.png'}/>
+                <img className='gameimg' src={require('../Assets/spacemarine.png')}/>
+                <img className='downloading' src={require('../Assets/download2.png')}/>
 
             </div>
 
             <div className='moregames'>
-                <img className='gameimg' src={'/Assets/reddeadredemption.png'}/>
-                <img className='downloading' src={'/Assets/download3.png'}/>
+                <img className='gameimg' src={require('../Assets/reddeadredemption.png')}/>
+                <img className='downloading' src={require('../Assets/download3.png')}/>
 
             </div>
         </div>
@@ -53,9 +54,9 @@ const MainPage = () => {
         <div className='middle-section-games'>
 
             <div>
-            <img src={'/Assets/deep walker.png'}/>
-            <img src={'/Assets/overwatch.png'}/>
-            <img src={'/Assets/fortnite.png'}/>
+            <img src={require('../Assets/deep walker.png')}/>
+            <img src={require('../Assets/overwatch.png')}/>
+            <img src={require('../Assets/fortnite.png')}/>
 
             </div>
         </div>
@@ -70,13 +71,13 @@ const MainPage = () => {
             <div className='item-price'>
                 <h3> Price: 30$ </h3>
                 <button className='buy-item'>
-                <img src={'/Assets/shopping-cart.png'}/>
+                <img src={require('../Assets/shopping-cart.png')}/>
                     <p>Add to cart</p>
                 </button>
             </div>
 
-            <img src={'/Assets/kratos.png'}/>
-            <img src={'/Assets/Radar .png'}/>
+            <img src={ require('../Assets/kratos.png')}/>
+            <img src={ require('../Assets/Radar .png')}/>
 
 
         </div>
