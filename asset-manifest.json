@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.470823b1.css",
-    "main.js": "/static/js/main.d29effe0.js",
+    "main.js": "/static/js/main.0048fb9a.js",
     "static/js/787.11d6b170.chunk.js": "/static/js/787.11d6b170.chunk.js",
     "static/media/kratos.png": "/static/media/kratos.d843a2b240a42c049953.png",
     "static/media/image 47.png": "/static/media/image 47.64d9f875f0599dd93574.png",
@@ -16,11 +16,11 @@
     "static/media/reddeadredemption.png": "/static/media/reddeadredemption.48137c41975441ca127f.png",
     "index.html": "/index.html",
     "main.470823b1.css.map": "/static/css/main.470823b1.css.map",
-    "main.d29effe0.js.map": "/static/js/main.d29effe0.js.map",
+    "main.0048fb9a.js.map": "/static/js/main.0048fb9a.js.map",
     "787.11d6b170.chunk.js.map": "/static/js/787.11d6b170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.470823b1.css",
-    "static/js/main.d29effe0.js"
+    "static/js/main.0048fb9a.js"
   ]
 }
