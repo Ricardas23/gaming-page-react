@@ -6,8 +6,6 @@ const MainPage = () => {
     <div className="Main-Container">
       {/* <Toolbar/> */}
 
-      <h1>Testing</h1>
-
       <div className="game-container">
         <div className="popularity-btns">
           <button className="btn-popular">
