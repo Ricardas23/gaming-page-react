@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.470823b1.css",
-    "main.js": "/static/js/main.d29effe0.js",
-    "static/js/787.11d6b170.chunk.js": "/static/js/787.11d6b170.chunk.js",
-    "static/media/kratos.png": "/static/media/kratos.d843a2b240a42c049953.png",
-    "static/media/image 47.png": "/static/media/image 47.64d9f875f0599dd93574.png",
-    "static/media/image 48.png": "/static/media/image 48.7eae36a669867be6025b.png",
-    "static/media/overwatch.png": "/static/media/overwatch.e72c7fef360ceb629aa6.png",
-    "static/media/deep walker.png": "/static/media/deep walker.fe11ba646bf3ba8a0cd9.png",
-    "static/media/fortnite.png": "/static/media/fortnite.4747aae62f2423b57bcc.png",
-    "static/media/Radar .png": "/static/media/Radar .cfddeeca1108d5a3e936.png",
-    "static/media/Add.png": "/static/media/Add.32c24277ad432905321e.png",
-    "static/media/spacemarine.png": "/static/media/spacemarine.696a5e9600fba0184703.png",
-    "static/media/leap.png": "/static/media/leap.ac56ac390e10101d545a.png",
-    "static/media/reddeadredemption.png": "/static/media/reddeadredemption.48137c41975441ca127f.png",
-    "index.html": "/index.html",
-    "main.470823b1.css.map": "/static/css/main.470823b1.css.map",
-    "main.d29effe0.js.map": "/static/js/main.d29effe0.js.map",
-    "787.11d6b170.chunk.js.map": "/static/js/787.11d6b170.chunk.js.map"
+    "main.css": "/gaming-page-react/static/css/main.470823b1.css",
+    "main.js": "/gaming-page-react/static/js/main.9a8e5f8c.js",
+    "static/js/787.11d6b170.chunk.js": "/gaming-page-react/static/js/787.11d6b170.chunk.js",
+    "static/media/kratos.png": "/gaming-page-react/static/media/kratos.d843a2b240a42c049953.png",
+    "static/media/image 47.png": "/gaming-page-react/static/media/image 47.64d9f875f0599dd93574.png",
+    "static/media/image 48.png": "/gaming-page-react/static/media/image 48.7eae36a669867be6025b.png",
+    "static/media/overwatch.png": "/gaming-page-react/static/media/overwatch.e72c7fef360ceb629aa6.png",
+    "static/media/deep walker.png": "/gaming-page-react/static/media/deep walker.fe11ba646bf3ba8a0cd9.png",
+    "static/media/fortnite.png": "/gaming-page-react/static/media/fortnite.4747aae62f2423b57bcc.png",
+    "static/media/Radar .png": "/gaming-page-react/static/media/Radar .cfddeeca1108d5a3e936.png",
+    "static/media/Add.png": "/gaming-page-react/static/media/Add.32c24277ad432905321e.png",
+    "static/media/spacemarine.png": "/gaming-page-react/static/media/spacemarine.696a5e9600fba0184703.png",
+    "static/media/leap.png": "/gaming-page-react/static/media/leap.ac56ac390e10101d545a.png",
+    "static/media/reddeadredemption.png": "/gaming-page-react/static/media/reddeadredemption.48137c41975441ca127f.png",
+    "index.html": "/gaming-page-react/index.html",
+    "main.470823b1.css.map": "/gaming-page-react/static/css/main.470823b1.css.map",
+    "main.9a8e5f8c.js.map": "/gaming-page-react/static/js/main.9a8e5f8c.js.map",
+    "787.11d6b170.chunk.js.map": "/gaming-page-react/static/js/787.11d6b170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.470823b1.css",
-    "static/js/main.d29effe0.js"
+    "static/js/main.9a8e5f8c.js"
   ]
 }
