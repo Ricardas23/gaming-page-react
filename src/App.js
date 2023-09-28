@@ -1,23 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import { useState } from 'react';
+import Toolbar from './Components/Toolbar';
+import MainPage from './Pages/MainPage';
+import FriendsPage from './Pages/FriendsPage';
+import FavoritePage from './Pages/FavoritePage';
+
+const initialUsers = [
+  {
+    username: "Ricardas",
+    email: "petras@gmail.com",
+    password: "Ricardas1",
+    image: "https://picsum.photos/id/50/200/300",
+  },
+];
 
 function App() {
+
+  const [users, setUsers] = useState(initialUsers);
+  const [userLoggedIn, setUserLoggedIn] = useState();
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-Container">
+
+      <BrowserRouter>
+      <Toolbar/>
+      
+      <Routes>
+
+        <Route path='/' element={ <MainPage/> } ></Route>
+        <Route path='/Friends' element={ <FriendsPage/> } ></Route>
+        <Route path='/Favorite' element={ <FavoritePage/> } ></Route>
+
+
+      </Routes>
+
+      </BrowserRouter>
+
     </div>
   );
 }
