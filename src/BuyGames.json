@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Grand Theft Auto V",
+        "image": "//upload.wikimedia.org/wikipedia/lt/thumb/0/0a/Gtavboxart.jpg/220px-Gtavboxart.jpg",
+        "price": 25
+    },
+    {
+        "id": 2,
+        "title": "The Elder Scrolls V: Skyrim",
+        "image": "//upload.wikimedia.org/wikipedia/en/thumb/1/15/The_Elder_Scrolls_V_Skyrim_cover.png/220px-The_Elder_Scrolls_V_Skyrim_cover.png",
+        "price": 25
+    },
+    {
+        "id": 3,
+        "title": "God of War",
+        "image": "https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7",
+        "price": 25
+    },
+    {
+        "id": 4,
+        "title": "Crysis",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Crysis_Cover.jpg",
+        "price": 25
+    },
+    {
+        "id": 5,
+        "title": "Counter-Strike 2",
+        "image": "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/social/cs2.jpg",
+        "about": "Counter-Strike 2 is a free upgrade to CS:GO. So build your loadout, hone your skills, and prepare yourself for what’s next!",
+        "price": 25
+    }
+]

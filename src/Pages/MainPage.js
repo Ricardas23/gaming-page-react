@@ -1,10 +1,19 @@
 import React from "react";
+import { useState } from "react";
 import Toolbar from "../Components/Toolbar";
+import UserCard from "../Components/UserCard";
+import GamesCard from "../Components/GamesCard";
 
-const MainPage = () => {
+const MainPage = ({users, setUsers, userProfile, addFriend, friends, games, allGameCards, setAllGameCards}) => {
+
+
+  const [filteredAnimals,  setFilteredAnimals] = useState(users)
+
+
+
+
   return (
     <div className="Main-Container">
-      {/* <Toolbar/> */}
 
       <div className="game-container">
         <div className="popularity-btns">
@@ -93,9 +102,39 @@ const MainPage = () => {
         <img src={require("../Assets/kratos.png")} />
         <img src={require("../Assets/Radar .png")} />
       </div>
-      {/* <div className='users_online_offline'>
-            <div className='users'></div>
-        </div> */}
+
+
+      <div className="middle-section-friend-text">
+          <h2>Connect with your friends </h2>
+        </div>
+
+      <div className='users_container'>
+      {/* {filteredAnimals
+            .map((x) => (
+              <UserCard
+                user={x}
+              />
+            ))} */}
+            {
+              userProfile && userProfile.map((user) =>
+              <UserCard user={user} addFriend={addFriend} friends={friends}/>
+            )
+            }
+        </div>
+
+
+        <div className="middle-section-more-game-text">
+          <h2>More games for you </h2>
+        </div>
+
+
+        <div className="all-games-container">
+          {
+            games && games.map((allGameCard) =>
+            <GamesCard allGameCard={allGameCard}/>
+            )
+          }
+        </div>
     </div>
   );
 };

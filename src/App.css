@@ -10,6 +10,7 @@
 } */
 .App-Container{
   display: flex;
+  background: linear-gradient(to right bottom, #232323, #262626, #333333);
 }
 
 
@@ -231,8 +232,29 @@
   background: linear-gradient(to right bottom, #232323, #262626, #333333, #6b6a6a, #0A0404);
   width: 100%;
   height: 100vh;
+  gap: 20px;
+  border-radius: 30px;
 }
 
+.my-friends{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.my-friends-text h2{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  background-color: #00453F;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.my-friends-text{
+}
 
 
 /* //////////////////////// favorite page */
@@ -242,3 +264,130 @@
   width: 100%;
   height: 100vh;
 }
+
+
+
+
+
+/* //////////////////////////////////// userCard */
+
+.users_container {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.userCard-container:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.userCard-container {
+  width: 200px;
+  height: 270px;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+div.userCard-container h3{
+  text-align: center;
+  margin: 0;
+}
+
+div.userCard-container p{
+  text-align: center;
+  margin: 0;
+}
+  
+div.userCard-container p{
+  text-align: center;
+  margin: 0;
+}
+
+.user-image{
+  display: flex;
+  justify-content: center;
+}
+
+.add-me-btn-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.add-me-btn-container button{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #00453F;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+}
+
+.add-me-btn-container button:hover{
+  transform: scale(1.2);
+  filter: hue-rotate(70deg);
+}
+
+
+/* /////////////////////////// gameCard */
+
+.middle-section-more-game-text, .middle-section-friend-text{
+  width: 100%;
+  font-size: xx-large;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #1f796a;
+  border-radius: 20px;
+  background-image: url(https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg);
+}
+
+.middle-section-more-game-text h2, .middle-section-friend-text h2{
+  padding-left: 10px;
+  color: #3DBDA7;
+}
+
+
+
+.gameCard-container {
+  width: 700px;
+  height: 300px;
+  border-radius: 40px;
+  display: flex;
+  background-color: #00453F;
+}
+
+.gameCard-container:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.game-image{
+  width: 200px ;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.game-image img{
+  width: 200px;
+  height: 200px;
+}
+
+.about-games{
+  text-align: center;
+  padding: 20px;
+}
+
+.all-games-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+

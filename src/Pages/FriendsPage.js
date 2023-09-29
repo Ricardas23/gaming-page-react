@@ -1,10 +1,25 @@
 import React from 'react'
+import UserCard from '../Components/UserCard'
 
-const FriendsPage = () => {
+
+const FriendsPage = ({friends}) => {
   return (
     <div className='friends-container'>
+      <div className='my-friends-text'>
+      <h2>My friends</h2>
+      </div>
         <div className='my-friends'>
-            <h2>My Friends</h2>
+        {friends.map((x) => (
+          <UserCard
+          friends={friends}
+            user={x}
+            key={x.id}
+          />
+        ))}
+      
+
+
+
         </div>
     </div>
   )

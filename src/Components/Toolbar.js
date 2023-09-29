@@ -19,8 +19,10 @@ const Toolbar = () => {
             </Link>
 
                 <img src={require("../Assets/Add.png")} />
+            <Link to='/Shop'>
 
                 <img src={require("../Assets/Property 12=Default.png")} />
+            </Link>
 
             <Link to='/Favorite'>  
                 <img src={require("../Assets/Property 123=Default.png")} />

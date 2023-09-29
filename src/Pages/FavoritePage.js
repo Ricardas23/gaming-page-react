@@ -1,8 +1,10 @@
 import React from 'react'
-
-const FavoritePage = () => {
+import UserCard from '../Components/UserCard'
+const FavoritePage = ({favorites, setFavorites}) => {
   return (
-    <div className='favorite-container'>FavoritePage</div>
+    <div className='favorite-container'>
+
+    </div>
   )
 }
 
