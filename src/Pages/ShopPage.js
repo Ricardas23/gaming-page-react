@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import BuyGamesCard from '../Components/BuyGamesCard'
 
 const ShopPage = ({buyGames}) => {
 
@@ -44,15 +44,13 @@ const ShopPage = ({buyGames}) => {
 //     });
 
   return (
-    <div className='shop'>
-        {randomGames.map((list, index) => (
-            <div>
-                <h2>{list.name}</h2>
-                <h2></h2>
-                <h2></h2>
-            </div>
-        ))}
-    </div>
+    <div className="shop-container">
+     {
+            buyGames && buyGames.map((allGameCard) =>
+            <BuyGamesCard allGameCard={allGameCard}/>
+            )
+          }
+  </div>
   )
 }
 

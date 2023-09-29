@@ -391,3 +391,57 @@ div.userCard-container p{
 }
 
 
+/* //////////////////////// ShopPage */
+
+.buy-games-card-container{
+  width: 300px;
+  height: 350px;
+  border: 1px solid;
+  border-radius: 50px;
+  background-color:#1f796a;
+}
+
+.shop-game-image{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.shop-game-image img{
+  width: 200px;
+  height: 200px;
+}
+
+.shop-about-games-container h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.shop-about-games-container p {
+  text-align: center;
+  margin: 0;
+}
+
+.add-to-cart-btn-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.add-to-cart-btn-container button{
+  width: 120px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+  border-radius: 30px;
+  background-color:#ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}

@@ -11,7 +11,7 @@ const Toolbar = () => {
         <div className='side-buttons-container'>
             <div className='side-buttons'>
             <Link to='/'>
-                <img src={ require("../Assets/Property 1=normal.png")} />
+                <img src={ require("../Assets/Property 1=normal.png")}/>
             </Link>
 
             <Link to='/Friends'>

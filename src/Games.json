@@ -3,30 +3,35 @@
         "id": 1,
         "title": "Grand Theft Auto V",
         "image": "//upload.wikimedia.org/wikipedia/lt/thumb/0/0a/Gtavboxart.jpg/220px-Gtavboxart.jpg",
-        "about": "Tai veiksmo-nuotykių atvirojo pasaulio žanro kompiuterinis žaidimas. „Grand Theft Auto V“ yra pirmas visiškai naujas „GTA“ serijos žaidimas nuo 2008 metais pasirodžiusio „Grand Theft Auto IV“. „GTA V“ veiksmas sugrįžo į Los Santos miestą bei San Andreas apylinkes"
+        "about": "Tai veiksmo-nuotykių atvirojo pasaulio žanro kompiuterinis žaidimas. „Grand Theft Auto V“ yra pirmas visiškai naujas „GTA“ serijos žaidimas nuo 2008 metais pasirodžiusio „Grand Theft Auto IV“. „GTA V“ veiksmas sugrįžo į Los Santos miestą bei San Andreas apylinkes",
+        "price": 25
     },
     {
         "id": 2,
         "title": "The Elder Scrolls V: Skyrim",
         "image": "//upload.wikimedia.org/wikipedia/en/thumb/1/15/The_Elder_Scrolls_V_Skyrim_cover.png/220px-The_Elder_Scrolls_V_Skyrim_cover.png",
-        "about": "The game is set 200 years after the events of Oblivion and takes place in Skyrim, the northernmost province of Tamriel, a continent on the planet Nirn. Its main story focuses on the player's character, the Dragonborn, on their quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world. Over the course of the game, the player completes quests and develops the character by improving skills. The game continues the open world tradition of its predecessors by allowing the player to travel anywhere in the game world at any time, and to ignore or postpone the main storyline indefinitely. "
+        "about": "The game is set 200 years after the events of Oblivion and takes place in Skyrim, the northernmost province of Tamriel, a continent on the planet Nirn. Its main story focuses on the player's character, the Dragonborn, on their quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world. Over the course of the game, the player completes quests and develops the character by improving skills. The game continues the open world tradition of its predecessors by allowing the player to travel anywhere in the game world at any time, and to ignore or postpone the main storyline indefinitely. ",
+        "price": 25
     },
     {
         "id": 3,
         "title": "God of War",
         "image": "https://cdn1.epicgames.com/offer/3ddd6a590da64e3686042d108968a6b2/EGS_GodofWar_SantaMonicaStudio_S2_1200x1600-fbdf3cbc2980749091d52751ffabb7b7_1200x1600-fbdf3cbc2980749091d52751ffabb7b7",
-        "about": " Based on ancient mythologies, the story follows Kratos, a Spartan warrior and later the Greek God of War, who was tricked into killing his family by his former master, the original Greek God of War Ares. This sets off a series of events that leads to wars with the different mythological pantheons. "
+        "about": " Based on ancient mythologies, the story follows Kratos, a Spartan warrior and later the Greek God of War, who was tricked into killing his family by his former master, the original Greek God of War Ares. This sets off a series of events that leads to wars with the different mythological pantheons. ",
+        "price": 25
     },
     {
         "id": 4,
         "title": "Crysis",
         "image": "https://upload.wikimedia.org/wikipedia/en/e/e9/Crysis_Cover.jpg",
-        "about": "Crysis is a first-person shooter video game series created by Crytek. The series revolves around a group of military protagonists with nanosuits, technologically advanced suits of armor that give them enhanced physical strength, speed, defense, and cloaking abilities. The protagonists face off against hostile North Korean soldiers, heavily armed mercenaries, and a race of technologically advanced aliens known as the Ceph, who arrived on Earth millions of years ago and have recently been awakened. "
+        "about": "Crysis is a first-person shooter video game series created by Crytek. The series revolves around a group of military protagonists with nanosuits, technologically advanced suits of armor that give them enhanced physical strength, speed, defense, and cloaking abilities. The protagonists face off against hostile North Korean soldiers, heavily armed mercenaries, and a race of technologically advanced aliens known as the Ceph, who arrived on Earth millions of years ago and have recently been awakened. ",
+        "price": 25
     },
     {
         "id": 5,
         "title": "Counter-Strike 2",
         "image": "https://cdn.cloudflare.steamstatic.com/apps/csgo/images/csgo_react/social/cs2.jpg",
-        "about": "Counter-Strike 2 is a free upgrade to CS:GO. So build your loadout, hone your skills, and prepare yourself for what’s next!"
+        "about": "Counter-Strike 2 is a free upgrade to CS:GO. So build your loadout, hone your skills, and prepare yourself for what’s next!",
+        "price": 25
     }
 ]
