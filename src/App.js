@@ -80,7 +80,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path="/gaming-page-react"
             element={
               <MainPage
                 users={users}

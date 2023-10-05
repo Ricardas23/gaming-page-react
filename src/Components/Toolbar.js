@@ -10,7 +10,7 @@ const Toolbar = () => {
 
         <div className='side-buttons-container'>
             <div className='side-buttons'>
-            <Link to='/'>
+            <Link to='/gaming-page-react'>
                 <img src={ require("../Assets/Property 1=normal.png")}/>
             </Link>
 
