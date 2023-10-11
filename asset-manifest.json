@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gaming-page-react/static/css/main.5ec6cb92.css",
-    "main.js": "/gaming-page-react/static/js/main.97bd9551.js",
+    "main.js": "/gaming-page-react/static/js/main.5fa09eb9.js",
     "static/js/787.11d6b170.chunk.js": "/gaming-page-react/static/js/787.11d6b170.chunk.js",
     "static/media/kratos.png": "/gaming-page-react/static/media/kratos.d843a2b240a42c049953.png",
     "static/media/image 47.png": "/gaming-page-react/static/media/image 47.64d9f875f0599dd93574.png",
@@ -16,11 +16,11 @@
     "static/media/reddeadredemption.png": "/gaming-page-react/static/media/reddeadredemption.48137c41975441ca127f.png",
     "index.html": "/gaming-page-react/index.html",
     "main.5ec6cb92.css.map": "/gaming-page-react/static/css/main.5ec6cb92.css.map",
-    "main.97bd9551.js.map": "/gaming-page-react/static/js/main.97bd9551.js.map",
+    "main.5fa09eb9.js.map": "/gaming-page-react/static/js/main.5fa09eb9.js.map",
     "787.11d6b170.chunk.js.map": "/gaming-page-react/static/js/787.11d6b170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ec6cb92.css",
-    "static/js/main.97bd9551.js"
+    "static/js/main.5fa09eb9.js"
   ]
 }
