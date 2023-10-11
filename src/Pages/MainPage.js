@@ -3,7 +3,8 @@ import { useState } from "react";
 import Toolbar from "../Components/Toolbar";
 import UserCard from "../Components/UserCard";
 import GamesCard from "../Components/GamesCard";
-
+import Flip from 'react-reveal/Flip';
+import Slide from 'react-reveal/Slide';
 const MainPage = ({users, setUsers, userProfile, addFriend, friends, games, allGameCards, setAllGameCards}) => {
 
 
@@ -13,6 +14,7 @@ const MainPage = ({users, setUsers, userProfile, addFriend, friends, games, allG
 
 
   return (
+    <Slide left>
     <div className="Main-Container">
 
       <div className="game-container">
@@ -109,12 +111,6 @@ const MainPage = ({users, setUsers, userProfile, addFriend, friends, games, allG
         </div>
 
       <div className='users_container'>
-      {/* {filteredAnimals
-            .map((x) => (
-              <UserCard
-                user={x}
-              />
-            ))} */}
             {
               userProfile && userProfile.map((user) =>
               <UserCard user={user} addFriend={addFriend} friends={friends}/>
@@ -136,6 +132,7 @@ const MainPage = ({users, setUsers, userProfile, addFriend, friends, games, allG
           }
         </div>
     </div>
+    </Slide>
   );
 };
 
