@@ -476,6 +476,18 @@ div.userCard-container p{
   .top-weekend-game{
     margin: 0;
   }
+
+  .Main-Container{
+    justify-content: center;
+  }
+
+  .Toolbar{
+    height: 45vh;
+  }
+
+  .add-button{
+    padding-top: 100px;
+  }
 }
 
 @media screen and (max-width: 1774px) {
@@ -537,5 +549,47 @@ div.userCard-container p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+
+  .top-weekend-game > img:nth-child(3) {
+    margin-left: 235px;
+  }
+
+  .gameCard-container {
+    width: 500px;
+    height: auto;
+    }
+
+  .moregames{
+    width: 560px;
+  }
+
+  .game-container > img:nth-child(3) {
+    width: 552px;
+  }
+
+  .game-container > img:nth-child(4){
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .moregames{
+    width: 360px;
+  }
+
+  .game-container > img:nth-child(3) {
+    width: 360px;
+  }
+
+  .gameCard-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 360px;
   }
 }
